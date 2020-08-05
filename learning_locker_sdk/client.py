@@ -30,4 +30,4 @@ class LearningLockerSDK(object):
 
     def do_request(self, request_type, entity, entity_id=None, **data):
         req_url = self.build_api_url(entity, entity_id=entity_id)
-        return getattr(requests, request_type)(req_url, json=**data, headers=self.headers)
+        return getattr(requests, request_type)(req_url, json=data, headers=self.headers)
