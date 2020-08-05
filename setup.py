@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 
 setuptools.setup(
-    name="learning-locker-sdk-todomac", # Replace with your own username
+    name="learning-locker-sdk", # Replace with your own username
     version="0.0.1",
     author="todomac",
     author_email="td_mcleod@hotmail.com",
